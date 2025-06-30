@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "strizh_lib")(type "KiCad")(uri "${KIPRJMOD}/../strizh_lib.kicad_sym")(options "")(descr ""))
+)
