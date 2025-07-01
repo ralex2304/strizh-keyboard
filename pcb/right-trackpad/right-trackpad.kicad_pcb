@@ -81,7 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 218.5 52.35)
+		(grid_origin 215.5 52.35)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -8385,7 +8385,7 @@
 		(at 221.77 62.85 -90)
 		(tags "MCU")
 		(property "Reference" "U1"
-			(at -10.5 3.02 0)
+			(at -10.5 7.52 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e10207f9-e0f0-4aa6-a6e3-fae5ce9d11c6")
@@ -14270,8 +14270,8 @@
 		(uuid "dffe1c04-794b-4fff-a939-3473d353d2ce")
 	)
 	(gr_circle
-		(center 215.5 52.35)
-		(end 217 52.35)
+		(center 217.5 52.35)
+		(end 219 52.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -14300,6 +14300,31 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fcf59c24-613b-48fc-ad56-46ce019740a0")
+	)
+	(gr_text "ralex2304"
+		(at 175.25 121.1 0)
+		(layer "F.Cu")
+		(uuid "331b9471-f62b-4ece-aebf-b3337b5bea98")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "ralex2304"
+		(at 175.25 121.1 0)
+		(layer "B.Cu")
+		(uuid "b3978b27-f591-48bc-901f-7b9dbdd79dbb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
+		)
 	)
 	(gr_text "strizh"
 		(at 153 113.6 0)

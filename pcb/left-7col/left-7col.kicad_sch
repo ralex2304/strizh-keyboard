@@ -1,0 +1,7567 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "733ce164-85cc-46a6-8cff-8cc60b879b78")
+	(paper "A4")
+	(title_block
+		(title "strizh keyboard left half (7 columns)")
+		(rev "v1.0.0")
+		(company "Alex Rozhkov (ralex2304)")
+	)
+	(lib_symbols
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT1"
+				(at 5.08 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 3.556 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "strizh_lib:batt_pins"
+				(at -1.27 0.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin power_out line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-BATT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "strizh_lib:1N4148W"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at -0.254 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+				(at 0 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+				(at 0 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81) (xy -1.27 -2.54) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "strizh_lib:PG1316S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PG1316S"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "strizh_lib:PG1316S"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+				(at 0 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PG1316S_0_1"
+				(rectangle
+					(start -5.08 -1.27)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PG1316S_1_1"
+				(circle
+					(center -2.54 -5.08)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "strizh_lib:supermini_nrf52840"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SuperMini"
+				(at 0 -35.306 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "strizh_lib:supermini_nrf52840"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "supermini_nrf52840_0_1"
+				(rectangle
+					(start -15.24 -1.27)
+					(end 15.24 -33.655)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "supermini_nrf52840_1_1"
+				(pin bidirectional line
+					(at -17.78 -3.81 0)
+					(length 2.54)
+					(name "TX/D0/006"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "RX/D1/008"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -13.97 0)
+					(length 2.54)
+					(name "SCK/D2/017"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -16.51 0)
+					(length 2.54)
+					(name "MISO/D3/020"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -19.05 0)
+					(length 2.54)
+					(name "MOSI/D4/022"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -21.59 0)
+					(length 2.54)
+					(name "CS/D5/024"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -24.13 0)
+					(length 2.54)
+					(name "SDA/D6/100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -26.67 0)
+					(length 2.54)
+					(name "SCL/D7/011"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -29.21 0)
+					(length 2.54)
+					(name "D8/104"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -31.75 0)
+					(length 2.54)
+					(name "D9/106"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "EXT_VCC/013"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 2.54)
+					(name "A2/D17/031"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -16.51 180)
+					(length 2.54)
+					(name "A1/D16/029"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -19.05 180)
+					(length 2.54)
+					(name "A0/D15/002"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -21.59 180)
+					(length 2.54)
+					(name "SCL1/D14/115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -24.13 180)
+					(length 2.54)
+					(name "SDA1/D13/113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -26.67 180)
+					(length 2.54)
+					(name "D12/111"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -29.21 180)
+					(length 2.54)
+					(name "NFC2/D11/010"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -31.75 180)
+					(length 2.54)
+					(name "NFC1/D10/009"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 16.51 15.24)
+		(end 182.88 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 666f7cc9-f5ce-43f3-8294-d689464f3165)
+	)
+	(rectangle
+		(start 250.19 45.72)
+		(end 279.4 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 731c4373-6248-430b-ae03-e8a6069a6cc5)
+	)
+	(rectangle
+		(start 250.19 34.29)
+		(end 279.4 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aa67e67-8bce-4505-af44-f6f624a10f2c)
+	)
+	(rectangle
+		(start 186.69 15.24)
+		(end 250.19 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91fdd3d1-fb06-4018-b343-f907d8f10ca9)
+	)
+	(rectangle
+		(start 250.19 15.24)
+		(end 279.4 34.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e61d5c64-cf33-4a87-b8b9-3f46c8c42412)
+	)
+	(junction
+		(at 121.92 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00841be7-ddac-49bc-aa3b-1d43a8b810e3")
+	)
+	(junction
+		(at 68.58 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04b78c91-705d-4547-be6b-b645034eaac5")
+	)
+	(junction
+		(at 64.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07398890-29af-438f-b424-bde58a43547f")
+	)
+	(junction
+		(at 125.73 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d985096-3677-456b-b53d-152390a6e1eb")
+	)
+	(junction
+		(at 160.02 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b6dbc3-0859-4201-99e3-4198522827ed")
+	)
+	(junction
+		(at 163.83 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5bf02a-2f32-4c64-a4e9-6d9fa2d8253d")
+	)
+	(junction
+		(at 144.78 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e30cb07-1c9d-457f-b242-d5ac53dfe28a")
+	)
+	(junction
+		(at 160.02 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9c468f-7d94-45b1-ba62-efb712e8d4ce")
+	)
+	(junction
+		(at 121.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3049b15d-2cf8-4854-b1c1-2e66d650c47d")
+	)
+	(junction
+		(at 83.82 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "315d146e-b18e-4e1b-ac6d-fa4d46e1f74f")
+	)
+	(junction
+		(at 106.68 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a0adc6-0bec-4e98-9499-ddeeedd7a4b0")
+	)
+	(junction
+		(at 68.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44792abd-13ac-4f15-afd7-a62347bdbc0e")
+	)
+	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4976c2f5-cc1c-438f-80bb-d31d1cb34497")
+	)
+	(junction
+		(at 106.68 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd7b8ca-a3ee-46ec-a63d-c46360ff91ad")
+	)
+	(junction
+		(at 102.87 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542be371-05fc-4310-bc08-79dceca71396")
+	)
+	(junction
+		(at 102.87 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6bba48-1c0d-4a4e-8713-b8f7833a7538")
+	)
+	(junction
+		(at 160.02 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f74816-67b2-4e97-a2a1-2de27ebe9c63")
+	)
+	(junction
+		(at 106.68 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bbd13af-2bce-4784-b647-c726058c6b2c")
+	)
+	(junction
+		(at 83.82 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c7b4a9-9036-49c9-b43a-2953cbaed758")
+	)
+	(junction
+		(at 140.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85dfacda-e106-4aca-97b0-13b3b81e4509")
+	)
+	(junction
+		(at 163.83 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9c8bf6-a2ad-4a12-859d-e372afab8735")
+	)
+	(junction
+		(at 64.77 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f07eb83-5dcb-4515-8f69-e21011ef78c5")
+	)
+	(junction
+		(at 144.78 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96f06751-34f5-4054-85a5-e41e631f90a9")
+	)
+	(junction
+		(at 121.92 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b2d20e6-f874-44d5-b999-e20bb7bf03f0")
+	)
+	(junction
+		(at 64.77 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b530be2-daf3-458a-a027-2eec325436a6")
+	)
+	(junction
+		(at 64.77 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9173ec5-5f91-47b8-98a1-49fbaa96459e")
+	)
+	(junction
+		(at 140.97 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af71145a-3f8c-49b3-aeb6-2be0c90e23cc")
+	)
+	(junction
+		(at 83.82 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b324b1d9-d828-4f17-9fa1-68d1202da3ca")
+	)
+	(junction
+		(at 102.87 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b86278d4-ee4a-4124-9ab4-e18bc8551890")
+	)
+	(junction
+		(at 49.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c135d8ca-6eb0-4e73-a667-509d7cde203c")
+	)
+	(junction
+		(at 87.63 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c55d7f3b-6e8c-4066-a04b-d4f99d3d45f2")
+	)
+	(junction
+		(at 125.73 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d45eb837-52ea-48cd-b353-7005322dc6cc")
+	)
+	(junction
+		(at 49.53 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db079989-49e2-41f5-899d-0f69c4983cb5")
+	)
+	(junction
+		(at 68.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db2407f3-033f-49c2-a252-e12d94dc3d55")
+	)
+	(junction
+		(at 125.73 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05e2349-4a22-4862-8c10-81f27ab9afaa")
+	)
+	(junction
+		(at 87.63 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3b069a4-ade8-4df0-a358-f3a611d5aca6")
+	)
+	(junction
+		(at 83.82 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e729abec-10cd-4e08-b63c-9b99de869d9c")
+	)
+	(junction
+		(at 87.63 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb81cd1b-e2e6-4c75-b516-1ac64c264752")
+	)
+	(junction
+		(at 140.97 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc62f49-d796-47f2-a1a4-540033fd9886")
+	)
+	(no_connect
+		(at 179.07 48.26)
+		(uuid "026be80c-695d-4caf-a38a-afd3029561f6")
+	)
+	(no_connect
+		(at 160.02 48.26)
+		(uuid "02db4811-f147-4117-8068-620246f1b1fb")
+	)
+	(no_connect
+		(at 200.66 30.48)
+		(uuid "05031bc3-bf8a-48c8-9d0e-3ed20c60b22e")
+	)
+	(no_connect
+		(at 121.92 48.26)
+		(uuid "096e306b-0f4c-41b8-bd0d-fb591c0144c3")
+	)
+	(no_connect
+		(at 200.66 27.94)
+		(uuid "128677d4-9ca1-4c56-b8cb-16af2040e971")
+	)
+	(no_connect
+		(at 200.66 25.4)
+		(uuid "1d633865-fc11-4c0e-a5af-f255f217e420")
+	)
+	(no_connect
+		(at 160.02 30.48)
+		(uuid "204d6469-7e87-4462-840f-b9881d692601")
+	)
+	(no_connect
+		(at 64.77 67.31)
+		(uuid "2c43006f-e2aa-4dd3-bfa3-e9c3d188df28")
+	)
+	(no_connect
+		(at 179.07 67.31)
+		(uuid "3405c16c-1d18-4a01-883a-1ade5faced9e")
+	)
+	(no_connect
+		(at 83.82 95.25)
+		(uuid "34cd41b0-7874-4611-8486-20be61a502eb")
+	)
+	(no_connect
+		(at 121.92 30.48)
+		(uuid "400c1af0-458a-4452-9e9c-5b888ae1c8be")
+	)
+	(no_connect
+		(at 121.92 67.31)
+		(uuid "53468995-ab3e-4f02-ac5b-8130495f7d71")
+	)
+	(no_connect
+		(at 236.22 43.18)
+		(uuid "66bdc3be-9121-45ed-ae3b-ce1f52f58df9")
+	)
+	(no_connect
+		(at 266.7 22.86)
+		(uuid "684eccc2-6220-404a-b8be-747c5e82e260")
+	)
+	(no_connect
+		(at 160.02 67.31)
+		(uuid "6a4eabfd-1dac-4187-904c-08b708767a45")
+	)
+	(no_connect
+		(at 64.77 48.26)
+		(uuid "6d6c8c2e-22f7-4b71-84df-9590197d6b46")
+	)
+	(no_connect
+		(at 140.97 30.48)
+		(uuid "70ca0a7a-fd7a-4065-ad78-228c145e7a60")
+	)
+	(no_connect
+		(at 179.07 30.48)
+		(uuid "77d8dccd-c2d8-4395-abc2-b27fd2968395")
+	)
+	(no_connect
+		(at 102.87 30.48)
+		(uuid "7876a3c6-afaf-4ae7-9191-b5ba02ec8132")
+	)
+	(no_connect
+		(at 236.22 38.1)
+		(uuid "8a1e5c0f-4047-4d0a-a99e-415166059c92")
+	)
+	(no_connect
+		(at 83.82 30.48)
+		(uuid "8c870bc7-ea69-4753-82b1-a7bd40dfc0f9")
+	)
+	(no_connect
+		(at 121.92 95.25)
+		(uuid "8d516b9b-bc26-4ad9-848c-2b8c66255c32")
+	)
+	(no_connect
+		(at 102.87 95.25)
+		(uuid "92326218-9461-4327-ba74-cf936b3e502f")
+	)
+	(no_connect
+		(at 102.87 48.26)
+		(uuid "9605e106-00f6-42da-8477-106052ce7cd8")
+	)
+	(no_connect
+		(at 236.22 35.56)
+		(uuid "9e37780c-2a4b-4bbd-8ed4-35cc62c0ede3")
+	)
+	(no_connect
+		(at 83.82 67.31)
+		(uuid "a7a39482-645d-44b5-857d-1487d62e78a8")
+	)
+	(no_connect
+		(at 140.97 48.26)
+		(uuid "bcc06993-97dc-4470-bc65-1c282a0130d4")
+	)
+	(no_connect
+		(at 236.22 45.72)
+		(uuid "bce8484a-0fbb-4c3f-9afc-0ca6b25eb866")
+	)
+	(no_connect
+		(at 236.22 40.64)
+		(uuid "bd366364-2ec3-489d-bbb1-75a5ee929c03")
+	)
+	(no_connect
+		(at 83.82 48.26)
+		(uuid "c2b917fa-5aa4-4dcc-9ee1-d995477b8e55")
+	)
+	(no_connect
+		(at 200.66 33.02)
+		(uuid "c46443e3-5d80-479c-a859-cbc2ba558999")
+	)
+	(no_connect
+		(at 64.77 95.25)
+		(uuid "ca82fa83-51f3-4f5e-a04f-d3f2cc831304")
+	)
+	(no_connect
+		(at 102.87 67.31)
+		(uuid "d01f516a-113c-4e44-af9a-9317c827a71e")
+	)
+	(no_connect
+		(at 236.22 33.02)
+		(uuid "d3d81951-e4aa-44f9-87b9-5b7a0d558fb8")
+	)
+	(no_connect
+		(at 140.97 67.31)
+		(uuid "ea1170e4-7ea5-46b1-ad50-2cc714cbb34d")
+	)
+	(no_connect
+		(at 64.77 30.48)
+		(uuid "f44ffa5d-4a9b-4eda-add6-df8aa61451af")
+	)
+	(wire
+		(pts
+			(xy 87.63 85.09) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041b81b4-7afa-4aba-ba40-1607c415b211")
+	)
+	(wire
+		(pts
+			(xy 83.82 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064c1019-8f03-43c1-9583-7264fed60485")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d6af79-caae-4132-9fda-3644357d3765")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2a9247-7676-45d2-aaa9-69b0bc211d0d")
+	)
+	(wire
+		(pts
+			(xy 68.58 69.85) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b406e96-7ad5-4d89-b5b3-a00ea709c5e8")
+	)
+	(wire
+		(pts
+			(xy 106.68 24.13) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e633035-ce31-46b7-bf8e-00abc6f0c5fc")
+	)
+	(wire
+		(pts
+			(xy 64.77 40.64) (xy 83.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6b79ca-c76e-41a9-a6bd-cf65d7209278")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8e900e-9973-4c7e-b684-f7054daf0fa3")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5944fd-05c5-4c60-b7dc-eb1605669151")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecc0f14-8b89-428a-9aec-15d3a569d44c")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250db7fe-ec43-4731-85be-7ba3bb1c2cd0")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 64.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27be0e6e-eaa9-4373-89c5-1e655cac3a48")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b19e4f9-86d2-4698-a37a-ed29181a8df8")
+	)
+	(wire
+		(pts
+			(xy 64.77 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cde5125-b3b3-41b6-9f2c-b1eb7c05615a")
+	)
+	(wire
+		(pts
+			(xy 87.63 33.02) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343e9ce5-c9a0-4e7a-8cde-72082c2ee8fc")
+	)
+	(wire
+		(pts
+			(xy 160.02 58.42) (xy 179.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375a6194-5046-4ba0-9083-33596f52f222")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 160.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383ede1a-82fc-4363-a4e6-cafa96da5675")
+	)
+	(wire
+		(pts
+			(xy 64.77 77.47) (xy 83.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc80d97-7c55-4017-b0bf-dd714727bcb3")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4090b39c-6b78-4bfc-a330-ca78f529d564")
+	)
+	(wire
+		(pts
+			(xy 121.92 40.64) (xy 140.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f0c452-2692-4013-80b1-c86ade2dcd64")
+	)
+	(wire
+		(pts
+			(xy 83.82 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e114b7-2a4c-43dd-a94f-e9be3b77685b")
+	)
+	(wire
+		(pts
+			(xy 25.4 105.41) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b0265e-d469-482e-baa9-cc566f14b7cb")
+	)
+	(wire
+		(pts
+			(xy 68.58 82.55) (xy 68.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580c5580-556d-472d-8ac3-77f4de506d27")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5caa66b1-1ac3-4e9b-8566-bb7d92043501")
+	)
+	(wire
+		(pts
+			(xy 87.63 24.13) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ea4b2c-cf3b-4fa3-a2fb-d93795d6c1d0")
+	)
+	(wire
+		(pts
+			(xy 83.82 40.64) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f821c5-9e63-41fe-9e28-f8d874c5ea51")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 160.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bff021-dfeb-4c17-83dd-107dde2bb542")
+	)
+	(wire
+		(pts
+			(xy 125.73 87.63) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6febdb06-0a53-4578-9479-ef919675aa8b")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 64.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757b0e65-20d3-4c51-9497-170a4af77554")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767207b4-7636-4a87-a88f-fa36f15ce435")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78085f2e-0773-4c56-9cdb-9df482d8cd20")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce7260f-535a-4264-ad11-d3e15e91954a")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 68.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82326302-70d7-4009-9a62-28b8b2df2ae2")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83373aef-3d8c-4a2b-b81f-7634d8bc1660")
+	)
+	(wire
+		(pts
+			(xy 144.78 24.13) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a65eb27-bcf5-49c1-9adf-ca020017bd9a")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceef1fe-150f-40e3-9350-04b0f3e06b70")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a170de57-38e0-4dfa-9dc3-05282cc14409")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38976c5-2ee9-47ac-a2f1-85ca5f16bbce")
+	)
+	(wire
+		(pts
+			(xy 106.68 85.09) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63c5abb-82a8-4575-8a8f-0dd4c18505c5")
+	)
+	(wire
+		(pts
+			(xy 163.83 24.13) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a802a61b-14e4-42b0-a8e9-4f0f514ce385")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a925be4c-de3d-42df-9334-ee3227412a97")
+	)
+	(wire
+		(pts
+			(xy 106.68 69.85) (xy 106.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab22553c-3f67-44de-b614-48f5c3f55eaf")
+	)
+	(wire
+		(pts
+			(xy 163.83 50.8) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d62836-690a-457f-aa93-a4c2c3af3f63")
+	)
+	(wire
+		(pts
+			(xy 125.73 24.13) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb6d00e-c92d-4df6-b281-89ec82e0fc05")
+	)
+	(wire
+		(pts
+			(xy 68.58 24.13) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5044d1-70e5-4930-8fb7-f7f662a8f082")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0429474-e64e-4798-a65a-9500546d7a81")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08ef41c-9ccc-420f-98f0-12844d8b21ef")
+	)
+	(wire
+		(pts
+			(xy 49.53 24.13) (xy 49.53 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a9bef-45ba-4673-a0d8-b9f4ef995a66")
+	)
+	(wire
+		(pts
+			(xy 49.53 80.01) (xy 49.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42c8424-c8e4-4321-acfb-65920afff8bd")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25b76e1-a51f-4fc1-aed8-de159086a667")
+	)
+	(wire
+		(pts
+			(xy 64.77 58.42) (xy 83.82 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dedd9bc5-05fa-40cf-94bc-de8729678986")
+	)
+	(wire
+		(pts
+			(xy 83.82 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e181370e-83fc-40df-b57d-95d2fc45b32d")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e3dee1-b325-42b2-88a6-7f37cc834e03")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 125.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e967228a-c415-4e02-97b1-c6175e9e9319")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff1808a-e9b0-4e6a-b826-cf074efaae3a")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f048dc32-29f7-4052-ab59-7e92bf00bda2")
+	)
+	(wire
+		(pts
+			(xy 125.73 69.85) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c7ce15-a70e-4300-92e8-005f5d144bf1")
+	)
+	(wire
+		(pts
+			(xy 163.83 33.02) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9c5799-82ea-49df-8121-9c00cfa99ce2")
+	)
+	(global_label "raw"
+		(shape output)
+		(at 256.54 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a652ef3-06c6-435b-98fe-29a0b8dbfcac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.2891 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 63.5 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ca1efac-21ca-4e6c-8f56-97b19995c267")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.2534 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 125.73 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12587ff5-3823-4cac-bd80-73ba6c69ff2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 200.66 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bffb8ca-e7cb-4520-bce9-dc21d49ad349")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 200.66 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c678197-f30c-406a-b2a7-7e2e644f7079")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 49.53 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c890b78-fd88-4395-9717-238a77b2d8f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 200.66 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d5ed95a-e22a-4ea7-a419-0b15f8dc21b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 87.63 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4697c204-6fcc-4c9c-ba93-b56568760759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 200.66 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4efa8a90-3c71-437d-950b-2f01dbf7b596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 63.5 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b21a10f-d3af-4cb2-884d-0619c9032a62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.2534 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 236.22 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ad128fc-b55a-46de-aa2e-cbb47439f36b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4666 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 200.66 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c6a78c5-66a2-4d1b-9707-82f223b1f13e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 163.83 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f642064-ed50-4dec-904d-5dbc8cd48f2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.83 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 68.58 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73899565-3ed8-40f5-a47d-56f482caa109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "rst"
+		(shape input)
+		(at 236.22 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "841b3880-0f33-4ec7-963e-503f58885a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7452 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 236.22 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "861e7de5-4353-42ca-959d-a7600fd2458a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4666 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 200.66 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aae7b5b3-205e-474f-8190-ca6789a9fa8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "rst"
+		(shape input)
+		(at 269.24 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac80e7e6-7cbb-41b5-9670-06247396f376")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.7652 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 144.78 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc86ebd-d5f4-4134-87ba-8ca882c29793")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "raw"
+		(shape input)
+		(at 236.22 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baf5ecb7-6f47-45d0-b04c-9d23502b36b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.4709 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 25.4 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55e7c4a-dc21-4973-8988-2b7f7474afdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.1534 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 106.68 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc7e70a2-7ad7-4e1e-97e2-47838fa6064b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 200.66 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "deb0e666-4ea1-4e0e-995f-a43e3783da1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.8367 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 236.22 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e59688ab-f2b6-4ac2-b428-e1346c3afb0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4666 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 63.5 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ece3451d-e845-4c48-9782-961230113b37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.2534 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 200.66 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f779f9bf-73af-42a9-ba91-52385f57a3da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.4134 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 57.15 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c12bc44-faa6-4383-9bcc-f2785e341907")
+		(property "Reference" "S23"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 57.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 57.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 57.15 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca01141-07c8-4ee4-8d0d-fb97fa563e50")
+		)
+		(pin "2"
+			(uuid "c37b030b-e082-4530-aab1-717d1f55bdbb")
+		)
+		(pin "3"
+			(uuid "a9419267-a828-4d42-9954-178f3f09e2d8")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 62.23 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14658b0f-d330-4623-b9de-ba576531fc11")
+		(property "Reference" "D19"
+			(at 59.944 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 53.594 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 67.31 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 67.564 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dfee069-6e01-4773-a202-456a2a029881")
+		)
+		(pin "1"
+			(uuid "d2c2992a-fa45-4927-a0c8-4b38d530e579")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 76.2 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bc886c-953d-4a39-af84-cf553d3011b4")
+		(property "Reference" "S20"
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 76.2 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24e65e07-347c-49c6-8bd9-65a424b60cba")
+		)
+		(pin "1"
+			(uuid "85285c9a-a1f6-4f6b-b87e-b6aab6108022")
+		)
+		(pin "3"
+			(uuid "2f14551e-52b3-4e6c-a95b-1557e35b3a9c")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 114.3 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18dfbc9b-b4e5-4fad-87ad-19c9ef10e144")
+		(property "Reference" "S9"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 114.3 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a0a")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a0d")
+		)
+		(pin "3"
+			(uuid "28a0baab-1fd5-46e4-9b01-2e89791bf86b")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 114.3 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aeb9581-c16f-4de9-8962-8b98007c0de2")
+		(property "Reference" "S22"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 114.3 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24e65e07-347c-49c6-8bd9-65a424b60cbb")
+		)
+		(pin "1"
+			(uuid "85285c9a-a1f6-4f6b-b87e-b6aab6108023")
+		)
+		(pin "3"
+			(uuid "58dc24de-2f1a-4f19-ac0a-97c10542fc81")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 57.15 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "214f9ede-f9eb-4d80-9f41-acf5a0af1256")
+		(property "Reference" "S24"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 57.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 57.15 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "196e4a81-cddb-4ef9-a8e0-d9d5bf1a151a")
+		)
+		(pin "2"
+			(uuid "3305ac8d-ca40-4b22-abbd-8a5171fb01aa")
+		)
+		(pin "3"
+			(uuid "b3582c51-d0a1-4aac-aaa6-da6bc9b5ebe2")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 100.33 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "251dd08c-897e-4a3c-b0f5-acf07c222c78")
+		(property "Reference" "D14"
+			(at 98.044 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 91.694 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 105.41 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 105.664 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "833d5943-faef-4f0d-ade0-fe44c2cd5124")
+		)
+		(pin "1"
+			(uuid "f382faed-90d5-49d4-9702-06fbb0f35ece")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 76.2 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28088cc5-0939-474d-b544-d9bcd69070fe")
+		(property "Reference" "S13"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 76.2 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a0b")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a0e")
+		)
+		(pin "3"
+			(uuid "87aef803-937f-4adb-80c5-640ef1e83088")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 81.28 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ce29763-f298-48a8-a2f7-477d60958049")
+		(property "Reference" "D1"
+			(at 78.994 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 72.644 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 86.36 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 86.614 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5794fb1b-db8a-4d0a-9e35-8944f3753ec7")
+		)
+		(pin "1"
+			(uuid "3e3ad33b-1df0-4095-be6f-d8cef5f24492")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 81.28 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32c6e507-9a9a-4cca-a6e4-a63554968d58")
+		(property "Reference" "D13"
+			(at 78.994 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 72.644 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 86.36 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 86.614 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "513b27ec-d599-442f-bfff-d558143ac435")
+		)
+		(pin "1"
+			(uuid "3c1cf99e-bba4-434e-b9a5-5e5be76027cc")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 76.2 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3374b781-904f-4de0-9c92-ec6c3cff4dc2")
+		(property "Reference" "S7"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 76.2 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a0d")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a10")
+		)
+		(pin "3"
+			(uuid "6d665513-710a-45a2-99d8-8c022fae0103")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 100.33 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3490b4b2-97cf-4044-b2ad-bd9689cbb8d8")
+		(property "Reference" "D8"
+			(at 98.044 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 91.694 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 105.41 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 105.664 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ae5b3e7-22b4-4c62-a1b0-7ed00236cd33")
+		)
+		(pin "1"
+			(uuid "d584424a-2988-4747-8fac-c2fbac67ab83")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 171.45 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36be7bf3-8bef-4c19-af96-d05cb8e0f1d2")
+		(property "Reference" "S6"
+			(at 171.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 171.45 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a0e")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a11")
+		)
+		(pin "3"
+			(uuid "135147a1-d44d-4c1c-ab37-f71f3959b5d5")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 95.25 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38f5ec5c-cb4a-49c5-816a-9cc4078b9936")
+		(property "Reference" "S21"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 95.25 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24e65e07-347c-49c6-8bd9-65a424b60cbc")
+		)
+		(pin "1"
+			(uuid "85285c9a-a1f6-4f6b-b87e-b6aab6108024")
+		)
+		(pin "3"
+			(uuid "0e7c30c2-2ab2-4905-b607-d144ba503b25")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 119.38 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "402518c2-5e0f-4ae9-a56a-78a60c153327")
+		(property "Reference" "D22"
+			(at 117.094 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.744 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 124.46 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 124.714 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a3c6da0-4804-4d06-8a00-9a910f753e58")
+		)
+		(pin "1"
+			(uuid "036dfa7c-8605-40e0-bbe0-0c4815938994")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 95.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4125b299-ca63-4467-9ef9-42e485ba7421")
+		(property "Reference" "S14"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 95.25 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a0f")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a12")
+		)
+		(pin "3"
+			(uuid "cef0b421-1a18-4dfb-897b-74a0fc49a7ef")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 62.23 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a029726-4548-40fd-a826-2576539212a5")
+		(property "Reference" "D25"
+			(at 59.944 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 53.594 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 67.31 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 67.564 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d53d2c2-a6c1-4bdb-a8e7-bf3a330f4935")
+		)
+		(pin "1"
+			(uuid "86cfd3ff-e96a-49d3-aa8b-2a750ce2e228")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 265.43 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a8bccb4-571a-47c5-bd57-b5ebf1639054")
+		(property "Reference" "BT1"
+			(at 263.906 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 264.16 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:batt_pins"
+			(at 264.922 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 263.906 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 265.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572e0d3f-7e62-485b-ab4f-3e889e18d0c3")
+		)
+		(pin "2"
+			(uuid "9350ce79-e1e8-4fca-ac37-cdfbdf58e65e")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 114.3 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac16276-b091-44a6-856f-2c1b0f6bcf39")
+		(property "Reference" "S3"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 114.3 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a10")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a13")
+		)
+		(pin "3"
+			(uuid "29871a3c-e22d-4476-b6bc-ae1f0d7f52f8")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 171.45 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb07146-978e-4a70-9057-16f39a670260")
+		(property "Reference" "S12"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 171.45 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a11")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a14")
+		)
+		(pin "3"
+			(uuid "69f297e7-bff3-4db2-8764-ea54a2b71a17")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 152.4 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50a349b6-5087-4629-9029-ab44121742e0")
+		(property "Reference" "S11"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 152.4 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a12")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a15")
+		)
+		(pin "3"
+			(uuid "a6da7c47-9137-447f-9216-c630b0ece5d2")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 133.35 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51da8f9d-1b4b-4b56-a259-7c6b7ba9f987")
+		(property "Reference" "S16"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 133.35 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a13")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a16")
+		)
+		(pin "3"
+			(uuid "8de49782-57b0-4942-9b63-496038667708")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 138.43 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "564119c1-8f4a-43e2-968d-2acae750c32e")
+		(property "Reference" "D10"
+			(at 136.144 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.794 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 143.51 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 143.764 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b6cef39-463b-4f80-a79e-33786ae223c2")
+		)
+		(pin "1"
+			(uuid "ded9cd95-ed18-401f-9405-ec545d256aca")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 261.62 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "578ddee9-fdbc-4171-b3b4-5ce1c82a8acc")
+		(property "Reference" "SW1"
+			(at 261.62 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_312"
+			(at 261.62 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:BSI-10H"
+			(at 278.13 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 261.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e4fd77c-b91f-4902-bb8d-57f07166b343")
+		)
+		(pin "1"
+			(uuid "0d22cd7f-1359-44ec-88a0-c229019ad4b4")
+		)
+		(pin "2"
+			(uuid "de5e2d21-66ef-47bf-b6dd-4e78f0dd98f2")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 266.7 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5820a180-6710-49be-a50e-7eb4f6dfa34c")
+		(property "Reference" "#PWR9"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 270.51 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7093d828-2185-4efb-826c-85f40a51b8d3")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 138.43 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd0ed98-f4ce-430f-8769-bfb2da0248f8")
+		(property "Reference" "D16"
+			(at 136.144 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.794 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 143.51 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 143.764 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2082cb9b-e577-41ba-9f32-d062c3c5f566")
+		)
+		(pin "1"
+			(uuid "ecd7f11d-8682-426a-8edf-b619c614fc2c")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 95.25 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a62f6d-807c-443b-94c5-d70a0bf21fcf")
+		(property "Reference" "S2"
+			(at 95.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 95.25 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66fe9e9f-8683-4c4e-9aa5-f052b6bc75b5")
+		)
+		(pin "2"
+			(uuid "6ed54281-3398-43f3-9bcf-b0274a7529fa")
+		)
+		(pin "3"
+			(uuid "c9899cc5-5703-40c5-8680-4dc14cc4db94")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 157.48 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64dcb46a-33f7-43a0-9414-0e8029643210")
+		(property "Reference" "D17"
+			(at 155.194 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 148.844 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 162.56 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 162.814 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac3ccccd-31ec-4259-b212-b799aa72a171")
+		)
+		(pin "1"
+			(uuid "31402114-3835-4cd0-a7cb-4d743d060df5")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6844d457-7705-4e99-a2c2-96301367c6e3")
+		(property "Reference" "#PWR10"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6450879e-6059-4962-9ec2-a8f386138b41")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 133.35 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef7a4ad-48ae-4e3b-8b55-91b8500d43bd")
+		(property "Reference" "S4"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 133.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 133.35 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a14")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a17")
+		)
+		(pin "3"
+			(uuid "c2fdd673-e3b0-438f-ad68-21c4f9ee09d5")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 81.28 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72af5a45-e4e7-44ae-b9db-f90b0e4cb65e")
+		(property "Reference" "D20"
+			(at 78.994 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 72.644 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 86.36 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 86.614 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29f8d4fa-a5e3-4782-982f-8c571db9ef8e")
+		)
+		(pin "1"
+			(uuid "493274ab-8db9-4c76-9647-4649d9902d13")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f8e60a4-0532-4961-9e04-cd6bf759954a")
+		(property "Reference" "#PWR5"
+			(at 252.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3b8bcf-62a5-4ca8-9fd4-4a9ed5952430")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 119.38 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81ed9343-e580-43a9-bdc4-9a738a683566")
+		(property "Reference" "D9"
+			(at 117.094 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.744 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 124.46 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 124.714 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bae2d0f-3624-4732-9a10-edc91af80614")
+		)
+		(pin "1"
+			(uuid "116380de-5fce-46c9-b465-0b36994359a8")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 264.16 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "878286aa-e507-4d54-af22-f3486e2e20e4")
+		(property "Reference" "SW2"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "581ba7d4-ef57-495f-b911-fec989453e98")
+		)
+		(pin "1"
+			(uuid "e4af71ee-c4e8-4e98-b215-decb89cee4a9")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 62.23 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89183e3a-c82f-4408-9ea4-c2a9a51dcb94")
+		(property "Reference" "D24"
+			(at 59.944 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 53.594 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 67.31 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 67.564 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1103a0f7-4262-4571-bd0a-9f24835ff93f")
+		)
+		(pin "1"
+			(uuid "438ee51f-ad48-476b-bbed-8ee6a07e4bc0")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 260.35 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92880878-73d6-48fe-8d21-c41707628732")
+		(property "Reference" "#PWR8"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 256.54 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 260.35 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a5b1bb4-e2bf-4ac1-9e03-24f47c9dedb0")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 76.2 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96c5b1ca-4aff-44a6-a132-387f2bda26ed")
+		(property "Reference" "S1"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 76.2 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eaa2fa3-690c-4f3a-b147-250084414c28")
+		)
+		(pin "2"
+			(uuid "5b98c86c-ae47-40d0-84c5-23017a3bc726")
+		)
+		(pin "3"
+			(uuid "57209598-37ca-4b31-94cc-80c914cb576e")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 138.43 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97fda1a6-61be-43c8-874e-03d29eba3582")
+		(property "Reference" "D4"
+			(at 136.144 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 129.794 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 143.51 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 143.764 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98e4bf13-73af-445e-af27-7df6ce40dc47")
+		)
+		(pin "1"
+			(uuid "8d5805d8-e086-4074-ae77-dd8cf1cdd582")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 57.15 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a9a7758-9396-4d73-92bf-54dda3835648")
+		(property "Reference" "S19"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 57.15 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a15")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a18")
+		)
+		(pin "3"
+			(uuid "3108f40e-77c1-4c1f-92d3-f672cd9d1907")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 57.15 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d1b5693-c363-40cb-8bec-fabb3f8ee61b")
+		(property "Reference" "S25"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 57.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 57.15 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a316b7-306e-47c2-920f-1be531cb8b95")
+		)
+		(pin "2"
+			(uuid "e5b9e631-e12c-4aff-8660-57dced371610")
+		)
+		(pin "3"
+			(uuid "4be31d08-719b-46cc-91f3-73105dd577d0")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 266.7 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a070e237-c722-46c4-a837-78742c86558a")
+		(property "Reference" "#PWR6"
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 270.51 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 266.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231e0d64-1ebb-494c-99de-fa659b6b206b")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b272de-4b8a-47c8-96b4-47bae059761c")
+		(property "Reference" "#PWR3"
+			(at 242.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65472a95-1999-4694-acd1-a12e5b1d5c18")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 152.4 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc5e7ad-6710-4205-a5fc-3a1344877879")
+		(property "Reference" "S17"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 152.4 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a16")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a19")
+		)
+		(pin "3"
+			(uuid "86950b3d-7fb1-4bce-9c35-1a497244cccb")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 114.3 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7840dab-2851-4528-8b8c-366e87cb3883")
+		(property "Reference" "S15"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 114.3 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a17")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a1a")
+		)
+		(pin "3"
+			(uuid "9f3adabe-40f4-46a1-ad88-c4e42a5109ba")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 176.53 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be414207-b2f0-4b15-ba77-2ebe0c5ccf93")
+		(property "Reference" "D18"
+			(at 174.244 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 167.894 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 181.61 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 181.864 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "993c32f4-1e6e-4f19-99fa-5e7c07afe5d0")
+		)
+		(pin "1"
+			(uuid "9089fdc6-3854-44b7-bb61-c5a246d19adf")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 62.23 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bead9823-2749-4b87-a9ad-9773bae8d8ec")
+		(property "Reference" "D23"
+			(at 59.944 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 53.594 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 67.31 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 67.564 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e271b52-182e-4154-a5cc-f0b166d8722d")
+		)
+		(pin "1"
+			(uuid "b63462f2-fd0d-47c5-991d-9e129b408c3a")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 152.4 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "becf29ce-f00c-44a7-92b0-23dae04e4104")
+		(property "Reference" "S5"
+			(at 152.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 152.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 152.4 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a18")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a1b")
+		)
+		(pin "3"
+			(uuid "7dd4f4ea-eeb9-4349-931a-c70cb065c13f")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 157.48 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7563c1d-c983-4332-bf6e-94489e46a928")
+		(property "Reference" "D11"
+			(at 155.194 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 148.844 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 162.56 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 162.814 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5d9bcc8-1260-4567-b4b6-17038b60b44c")
+		)
+		(pin "1"
+			(uuid "5b3586e0-c27f-4087-a9f7-3246de093164")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 119.38 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbc37329-37d3-415e-b1c4-415d4cd77d2e")
+		(property "Reference" "D3"
+			(at 117.094 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.744 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 124.46 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 124.714 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "485e9dc0-b86c-4163-a1e9-640dbcf1ce60")
+		)
+		(pin "1"
+			(uuid "6568a9da-610c-496d-8f0c-8fedf3fb1e82")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 95.25 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd7ae8f0-4594-44b5-92ad-3362c390133b")
+		(property "Reference" "S8"
+			(at 95.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 95.25 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a19")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a1c")
+		)
+		(pin "3"
+			(uuid "a3fdafc3-430c-46d9-a530-c9b3e3fa6f24")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 176.53 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d678df80-2675-4db0-b555-dbbc67126013")
+		(property "Reference" "D6"
+			(at 174.244 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 167.894 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 181.61 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 181.864 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae50825e-3095-48ab-8d5b-f70fd0839139")
+		)
+		(pin "1"
+			(uuid "85e1bca5-85bf-42e4-9c15-e62a0c8bd2f6")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:supermini_nrf52840")
+		(at 218.44 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d881367f-a0a8-4509-9010-3b175394ac5b")
+		(property "Reference" "U1"
+			(at 218.44 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SuperMini"
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:supermini_nrf52840"
+			(at 218.44 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "a84e1ae9-b8dd-4f2b-b376-1c8cd045db32")
+		)
+		(pin "1"
+			(uuid "eac3fb19-aff1-40c5-84d7-b1c3d09c7ebf")
+		)
+		(pin "2"
+			(uuid "b7f7ebca-44f6-493f-9fe6-2d9c8d62e3a1")
+		)
+		(pin "5"
+			(uuid "962a86fd-5041-4a97-b9a7-92280e759870")
+		)
+		(pin "10"
+			(uuid "9acb0c39-2b50-4fe7-af05-92a9d6ce9fb8")
+		)
+		(pin "12"
+			(uuid "281b7b26-3345-4335-81a0-f1847cb8a784")
+		)
+		(pin "19"
+			(uuid "95ba327a-b3aa-4d9e-9918-54a6ee84a753")
+		)
+		(pin "9"
+			(uuid "0fb926ff-60ba-4e2d-b78b-be61771eb8a3")
+		)
+		(pin "24"
+			(uuid "be1e6537-3645-4c24-8e38-9915e355f0c5")
+		)
+		(pin "3"
+			(uuid "aa4b7c88-a477-4475-9855-ad180a3a43bb")
+		)
+		(pin "6"
+			(uuid "a05c2a9d-8f44-4557-bbc0-a97dda97355f")
+		)
+		(pin "8"
+			(uuid "9b8aa33c-8f6a-4f67-a70a-365b674d25ad")
+		)
+		(pin "4"
+			(uuid "1f85bbad-be6e-46c1-80e3-75364584dd0d")
+		)
+		(pin "7"
+			(uuid "5cbf18ca-4b3c-4275-a32b-308772bb08a2")
+		)
+		(pin "11"
+			(uuid "149cfbbc-83ca-4967-9218-8fff9602e028")
+		)
+		(pin "23"
+			(uuid "f6fe66c5-635a-4ea5-bbd4-230908c1d8fd")
+		)
+		(pin "21"
+			(uuid "348e2ac1-a79a-4f2a-b15a-c7858502487f")
+		)
+		(pin "20"
+			(uuid "b5e9c18a-70ff-4213-8298-4654fe2b6fc2")
+		)
+		(pin "18"
+			(uuid "cc06d774-c563-4063-b743-f1022bfc36ab")
+		)
+		(pin "15"
+			(uuid "3f3659b5-efe7-4a4b-921e-54302a8a815a")
+		)
+		(pin "16"
+			(uuid "ec0d2360-7947-4aec-810a-7f3325428fbc")
+		)
+		(pin "13"
+			(uuid "d9a7ebde-10ad-4f9a-85ad-428fce0dffea")
+		)
+		(pin "17"
+			(uuid "45151856-3f36-4cd0-a076-1dabcfb51d2e")
+		)
+		(pin "14"
+			(uuid "fb7b5c39-b964-4958-af32-6979272292dc")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 81.28 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c13b0d-7d86-4de8-99aa-f8a6107a8edd")
+		(property "Reference" "D7"
+			(at 78.994 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 72.644 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 86.36 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 86.614 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e3ff78f-4457-4e9d-8a8f-fa6fae18004f")
+		)
+		(pin "1"
+			(uuid "1303ab39-1b11-4b60-9b95-84541a72c55c")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 133.35 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e844ebcd-f3e9-4ed0-9aed-bb483e71b4e1")
+		(property "Reference" "S10"
+			(at 133.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 133.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 133.35 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a1a")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a1d")
+		)
+		(pin "3"
+			(uuid "f9b81fc6-d9f4-4569-905b-d8f56f730e6a")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 100.33 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb6a5bdf-9947-40eb-b612-19c41bd78792")
+		(property "Reference" "D2"
+			(at 98.044 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 91.694 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 105.41 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 105.664 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6343fb6-7300-46a8-adb1-2f876fdc4e25")
+		)
+		(pin "1"
+			(uuid "7fc93605-ab3e-4ee3-8b94-64d7dce3a363")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 176.53 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f47b4067-4087-4eb4-834c-12ef73cfdfb9")
+		(property "Reference" "D12"
+			(at 174.244 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 167.894 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 181.61 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 181.864 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a33393c-937d-4363-9888-a16320a0823a")
+		)
+		(pin "1"
+			(uuid "5b06a315-ebfc-499b-a63f-8ee04370df14")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 119.38 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f8b722-631a-4306-a018-ab3880b15def")
+		(property "Reference" "D15"
+			(at 117.094 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 110.744 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 124.46 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 124.714 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da83c7cd-d1cf-4a58-a62a-3557169c6432")
+		)
+		(pin "1"
+			(uuid "2a16130a-062b-4f36-94b6-a76165a62dbc")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 267.97 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6fac24c-bc49-478a-bce1-d79023be8ea3")
+		(property "Reference" "#PWR7"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 271.78 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 267.97 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bc933a-1dab-4630-95d2-aad3e0eda6c9")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 157.48 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb2dc4b4-847a-4ce9-979a-143254d6a7fd")
+		(property "Reference" "D5"
+			(at 155.194 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 148.844 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 162.56 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 162.814 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d5b74c2-fccc-4423-93a1-b37f43338025")
+		)
+		(pin "1"
+			(uuid "046101a4-ea61-4177-82f2-481f243dbd1f")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:PG1316S")
+		(at 171.45 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe13dc23-cdfd-4043-b5a7-610f4fa7b6a0")
+		(property "Reference" "S18"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "strizh_lib:PG1316S"
+			(at 171.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kailhswitch.com/uploads/15927/files/CPG1316S01D02-data-sheet.pdf?rnd=134"
+			(at 171.45 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5a17fe-2c5c-4a5a-b20b-1eb6ff6c0a1b")
+		)
+		(pin "2"
+			(uuid "7f29ed97-ff44-4c73-a2b7-b1b946254a1e")
+		)
+		(pin "3"
+			(uuid "2aa1d9de-ae15-4258-970a-fdfeb1e567ac")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "strizh_lib:1N4148W")
+		(at 100.33 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff5a205d-25c7-4648-90cf-b0157da93587")
+		(property "Reference" "D21"
+			(at 98.044 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 91.694 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "strizh_lib:1N4148W_SOD-123"
+			(at 105.41 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/858/DOC011858511.pdf"
+			(at 105.664 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b0eba16-689e-4913-9991-4c9117616054")
+		)
+		(pin "1"
+			(uuid "5fd01dae-804f-4499-add8-d8171fdcdcd1")
+		)
+		(instances
+			(project "left-7col"
+				(path "/733ce164-85cc-46a6-8cff-8cc60b879b78"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
