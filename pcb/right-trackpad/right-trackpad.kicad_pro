@@ -239,52 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "duplicate_pins|254000|393700|9d55f034-293e-4cac-af45-0b4215b3a740|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|2654300|546100|4a8bccb4-571a-47c5-bd57-b5ebf1639054|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|2006600|330200|7093d828-2185-4efb-826c-85f40a51b8d3|a53a440b-4545-4c53-bd87-015e4a7e443d|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|254000|e1c8b619-6b12-410b-8bce-6429121d7701|962a86fd-5041-4a97-b9a7-92280e759870|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|279400|8ee9e3df-3719-4df7-9da3-fe93131f07a0|a05c2a9d-8f44-4557-bbc0-a97dda97355f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|304800|826a15ae-58d1-4aa4-be1d-08d629e10c36|0fb926ff-60ba-4e2d-b78b-be61771eb8a3|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|330200|a14b5ec3-29ee-4960-87f8-0d3cb03ab0a4|9b8aa33c-8f6a-4f67-a70a-365b674d25ad|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|355600|2900766f-fed2-4f28-87d8-1bd9745273d6|5cbf18ca-4b3c-4275-a32b-308772bb08a2|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|508000|bde4551d-bb16-45ac-bad1-1ddb9a9a02fb|c2b2559c-8805-4180-99a0-0e4e81dc25bb|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "pin_to_pin|330200|533400|c38d6630-f59e-42fa-b413-1effe4cc2b3a|0c34d960-15e9-45d2-af6a-2cd887499b70|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f",
-        ""
-      ],
-      [
-        "power_pin_not_driven|2362200|279400|be1e6537-3645-4c24-8e38-9915e355f0c5|00000000-0000-0000-0000-000000000000|/c0551f20-03a9-4b2e-91c0-37325160ca6f|/c0551f20-03a9-4b2e-91c0-37325160ca6f|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -498,6 +453,7 @@
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
